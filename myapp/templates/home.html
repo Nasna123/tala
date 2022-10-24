@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <table style="height:5px; background-color:#ff8800 ;width:100%;">
+    <tr><td>
+        <img src="{%static 'images/download.png' %}" alt="px" srcset="" height="80px"></td>
+        <td>Offers</td>
+        <td>Become a partner</td>
+        <td>All Restaurants</td>
+        <td><form><select><option  >
+            --select country
+        </option><option>INDIA</option><OPTION>UAE</OPTION><option>QATAR</option><OPTION>OMAN</OPTION>
+    </select> </form></td>
+        <td><form>
+            <input type=submit value=Login height=20px;>
+        </form></td>
+    </tr>
+   </table> 
+   <table style="background-color:rgba(255, 192, 203, 0.425) ;height:400px;width:100%">
+    
+<tr>
+    <td><img src="{%static 'images/mar.jpg' %}"</td><br><th>ORDER FOOD ONLINE IN UAE</th>
+
+    
+    <td><form><input type=text placeholder="Search for area,Street name,Land mark..." "width:40%;height:20;">
+    <input type="submit" value="LET'S GO" style="background-color:rgb(255, 102, 0) ;">
+    </form></td>
+
+<td style="float:right;"><img src="images/marsham.jpg"></td>
+</tr>
+   </table ><br>
+   <table style="width:100;" align="center"><tr>
+    <th style="font-size:30px;" colspan="4px">Your everyday,right away</th></tr>
+        <tr>
+        </tr>
+        <tr>
+            <td><img src="{% static 'images/app.png' %}" width="300px"></td>
+            <td><img src="{% static 'images/googl.png' %}" height="50px"></td>
+            <td><img src="{% static 'images/explore.png' %}" height="90px"></td>
+        </tr>
+   </table>
+</body>
+</html>
